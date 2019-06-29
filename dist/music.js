@@ -1,5 +1,5 @@
 var player = new skPlayer({
-    autoplay: true,
+    autoplay: false,
     //可选项,自动播放,默认为false,true/false
     listshow: true,
     //可选项,列表显示,默认为true,true/false
