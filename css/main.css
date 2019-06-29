@@ -1112,9 +1112,9 @@ pre .javascript .function {
   position: relative;
   display: inline-block;
   padding: 0 40px;
-  color: #fff;
   background: #222;
   border-bottom: none;
+  color: #ad25ef !important;
 }
 .brand:hover {
   color: #fff;
@@ -1208,6 +1208,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: #ad25ef !important;
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
@@ -1953,7 +1954,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #74cb65;
+  background: #ffcb47;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3151,4 +3152,25 @@ pre {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+.footer-inner {
+  color: #8f94e5;
+}
+sidebar {
+  background: url("/images/background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+sidebar p,
+sidebar span,
+sidebar a {
+  color: #ffb6c1;
 }
