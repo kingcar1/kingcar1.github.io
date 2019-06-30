@@ -523,8 +523,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/06/30/第一篇分享/" rel="prev" title="第一篇分享">
-                第一篇分享 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/06/30/回忆杀/" rel="prev" title="回忆杀">
+                回忆杀 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -1003,6 +1003,7 @@
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <div id="gitalk-container"></div>
+  <script src="/js/src/md5.min.js"></script>
   <script type="text/javascript">
     var gitalk = new Gitalk({
       clientID: '6239bfab4feea8053bcc',
@@ -1010,7 +1011,7 @@
       repo: 'comment',
       owner: 'kingcar1',
       admin: ['kingcar1'],
-      id: location.pathname,
+      id: md5(location.pathname),
       distractionFreeMode: 'false'
     })
     gitalk.render('gitalk-container')
